@@ -1,0 +1,40 @@
+.main-page {
+	font-family: gothic, メイリオ, Meiryo, 游ゴシック体, "游ゴシック Medium", "Yu Gothic", "Yu Gothic Medium", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", YuGothic, Helvetica, sans-serif;
+	max-width: 600px;
+	margin: 0 auto;
+
+	.title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: 40px;
+		margin-bottom: 45px;
+
+		h1 {
+			font-weight: normal;
+			font-size: 30px;
+			margin: 0px 0px 5px;
+			line-height: 1;
+		}
+
+		span {
+			color: rgb(211, 35, 39);
+			font-size: 15px;
+			line-height: 1;
+		}
+	}
+
+	.stepbox-area {
+		padding: 15px 0;
+		margin: 30px 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	.explain-text {
+		color: rgb(136, 136, 136);
+		font-size: 12px;
+		margin: 10px 0px;
+	}
+}

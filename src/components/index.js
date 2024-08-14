@@ -1,1 +1,1 @@
-export { Stepbox } from './Stepbox'
+export { default as Stepbox } from './Stepbox/Stepbox'
